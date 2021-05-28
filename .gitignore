@@ -3,3 +3,4 @@ vue/\.idea/
 
 vue/package-lock\.json
 /api/*.iml
+/admin/package-lock.json
