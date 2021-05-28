@@ -64,6 +64,10 @@
         </where>
     </select>
 
+    <select id="findByWechatOpenId" resultType="com.zoctan.api.entity.Account">
+
+    </select>
+
     <update id="updateLoginTimeByName">
         UPDATE account
         SET login_time = NOW()

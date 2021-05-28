@@ -1,5 +1,6 @@
 package com.zoctan.api.util;
 
+
 import com.zoctan.api.core.exception.ServiceException;
 import com.zoctan.api.core.response.ResultCode;
 
@@ -11,7 +12,7 @@ import com.zoctan.api.core.response.ResultCode;
  */
 public class AssertUtils {
   public static void throwIf(
-      final boolean statement, final ResultCode resultCode, final String message) {
+          final boolean statement, final ResultCode resultCode, final String message) {
     if (statement) {
       throw toThrow(resultCode, message);
     }

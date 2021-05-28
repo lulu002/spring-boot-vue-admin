@@ -13,7 +13,7 @@ public class UrlUtils {
   private UrlUtils() {}
 
   /**
-   * 请求的相对路径 /account/list
+   * 请求的相对路径 /user/list
    *
    * @param request request
    * @return 相对路径
